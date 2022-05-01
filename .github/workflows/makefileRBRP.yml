@@ -18,7 +18,7 @@ on:
       DEVICE_URL:
         description: 'DEVICE_URL'
         required: true
-        default: 'https://github.com/Dimonnemo64/android_devices_TECNO_CD8_pbrp-V.2.git'
+        default: 'https://github.com/Dimonnemo64/android_devices_TECNO_CD8_pbrp-V2.git'
       DEVICE_BRANCH:
         description: 'DEVICE_BRANCH'
         required: true
