@@ -24,7 +24,8 @@ $(call inherit-product, vendor/pb/config/common.mk)
 
 DEVICE_PATH := device/TECNO/CD8
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(DEVICE_PATH)/recovery/root,recovery/root)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(DEVICE_PATH)/recovery/root,recovery/root) \
+    device/TECNO/CD8/prebuilt/dtb:dtb
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := CD8
